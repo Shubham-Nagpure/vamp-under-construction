@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300&display=swap');
 
 * {
   margin: 0;
@@ -14,12 +13,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Jost', sans-serif;
 }
 
 .title {
   margin: 5px;
   padding: 25px;
+  font-weight: 500;
 }
 
 .icon {
@@ -35,4 +35,5 @@
 
 .text {
   text-align: center;
+  font-weight: 400;
 }
