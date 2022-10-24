@@ -13,7 +13,15 @@
     <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_byuzwmds.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; text-align: center;"  loop  autoplay></lottie-player>
     <h3 class="text">Vamp.co.in is Currently under construction. </h3>
     <h3 class="text">We are working hard to give you a better experience.</h3>
-    <h1 class="title">Lunching soon</h1>
+    <!-- <h1 class="title">Lunching soon</h1> -->
+
+    <div id="scene">
+      <div class="diwali" data-depth="2">
+        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_oi3adcq2.json"  background="transparent"  speed="1"  style="width: 75px; height: 75px;"  loop  autoplay></lottie-player>
+        <h1 class="title">Happy Diwali</h1>
+        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_oi3adcq2.json"  background="transparent"  speed="1"  style="width: 75px; height: 75px;"  loop  autoplay></lottie-player>
+      </div>
+    </div>
     <div>
       <h3 class="text">Currently Available on</h3>
       <div class="icons">
@@ -24,7 +32,12 @@
     </div>
   </div>
 
-
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+  </script>
 </body>
 </html>
